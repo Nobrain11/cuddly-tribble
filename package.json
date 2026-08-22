@@ -1,5 +1,5 @@
 {
-  "name": "memebot",
+  "name": "error-404",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,11 +9,13 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "telegraf": "^4.16.3"
+    "dotenv": "^16.4.7",
+    "telegraf": "^4.16.3",
+    "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
+    "@types/tweetnacl": "^1.0.3",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }
